@@ -1,0 +1,39 @@
+﻿/* Make the map fill the .body area. In IE6/7 this only works with JavaScript, so default to just showing a big map and let JavaScript improve on that. */
+body .ElginRoadworksWidget { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+.ie67 .ElginRoadworksWidget { position: static; height: 600px; }
+    
+/* Reset font to our standard */
+body .ui-widget, body .ui-widget input, body .ui-widget select, body .ui-widget textarea, body .ui-widget button { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+    
+/* Set base font-size to 12px as Elgin CSS increases font-size to approx 13px from there */
+body .ElginRoadworksWidget, body .ui-autocomplete { font-size: .923077em; }
+    
+/* Reset font-size to something legible */
+body .erwMapLayer-Key { font-size: 1em; }
+    
+/* Add space between checkboxes and labels in Map Layers widget for legibility */
+.erwMapOptionsGroup label { margin-left: 4px; }
+    
+/* Larger text meant bullets misaligned in information box in Map Layers widget - reset them */
+body .erwKeyLI { margin-left: 0; }
+    
+/* Change small print text in Map Layers widget to size which is legible, and meets colour contrast requirements */
+body .erwMoreKeyDisc { font-size: 1em; color: #777; margin-top: .692308em; }
+    
+/* Align labels to images in key to roadworks signs in Map Layers widget  */
+.erwMoreKeyTxt td { vertical-align: middle; }
+    
+/* Align text inside Info panel */
+body p.erwPara1st, body p.erwParaMid, body p.erwParaLast { text-align: left; margin-bottom: .692308em; }
+#erwInfoPanelAccordian ul, span.erwLA { display: block; margin: 0 0 .692308em 0; }
+#erwInfoPanelAccordian dl { margin: .692308em 0; }
+#erwInfoPanelAccordian dl dd { margin: 0; }
+    
+/* Autocomplete indents results by default, but then they move on hover which looks broken, so undo it */
+body .ui-autocomplete a:not(.ui-state-hover) { margin-left: 0; text-indent: 0 }
+    
+/* Don't use italics in alerts form - override inline style */
+#erwAlerts_GeoSearchDispTxt { font-style: normal!important; }
+    
+/* Add space after checkboxes/radio buttons in alert boxes for legibility */
+#erwAlerts-div_type input, #erwAlerts-div_periodicity input { margin-right: 4px; }
