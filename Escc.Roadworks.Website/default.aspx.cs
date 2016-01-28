@@ -1,5 +1,7 @@
 using System;
+using System.Web;
 using eastsussexgovuk.webservices.TextXhtml.HouseStyle;
+using EsccWebTeam.Data.Web;
 
 namespace Escc.Roadworks.Website
 {
@@ -12,6 +14,11 @@ namespace Escc.Roadworks.Website
         {
             // Since content refreshed every 15 mins, set date modified of content to today
             this.headContent.DateModified = DateTimeFormatter.ISODate(DateTime.Today);
+
+            var policy = new ContentSecurityPolicy(HttpContext.Current.Request.Url);
+            policy.AppendFromConfig("GoogleMaps");
+            policy.AppendFromConfig("Roadworks");
+            policy.UpdateHeader(System.Web.HttpContext.Current.Response);
         }
     }
 }
