@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Escc.Roadworks.Website")]
+[assembly: AssemblyTitle("Escc.Roads.Roadworks.Website")]
 [assembly: AssemblyDescription("A map of roadworks in East Sussex, which is simply a page hosting the roadworks.org service.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("East Sussex County Council")]
-[assembly: AssemblyProduct("Escc.Roadworks.Website")]
+[assembly: AssemblyProduct("Escc.Roads.Roadworks.Website")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("East Sussex County Council")]
 [assembly: AssemblyCulture("")]

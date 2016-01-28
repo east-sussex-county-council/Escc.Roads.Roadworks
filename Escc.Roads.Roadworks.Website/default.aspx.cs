@@ -3,7 +3,7 @@ using System.Web;
 using eastsussexgovuk.webservices.TextXhtml.HouseStyle;
 using EsccWebTeam.Data.Web;
 
-namespace Escc.Roadworks.Website
+namespace Escc.Roads.Roadworks.Website
 {
     /// <summary>
     /// Summary description for map.

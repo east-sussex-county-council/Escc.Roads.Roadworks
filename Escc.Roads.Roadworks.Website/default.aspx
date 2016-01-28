@@ -1,4 +1,4 @@
-<%@ Page language="c#" Codebehind="default.aspx.cs" AutoEventWireup="True" Inherits="Escc.Roadworks.Website.map" %>
+<%@ Page language="c#" Codebehind="default.aspx.cs" AutoEventWireup="True" Inherits="Escc.Roads.Roadworks.Website.map" %>
 
 <asp:Content runat="server" ContentPlaceHolderID="metadata">
 	<Metadata:MetadataControl id="headContent" runat="server" 

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Escc.Roadworks.Website {
+namespace Escc.Roads.Roadworks.Website {
     
     
     public partial class map {

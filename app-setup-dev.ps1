@@ -34,7 +34,7 @@ Example: C:\>set GIT_ORIGIN_URL=https://example-git-server.com/{0}"
 ### END BOOTSTRAP. #####################################################
 ########################################################################
 
-$projectName = "Escc.Roadworks.Website"
+$projectName = "Escc.Roads.Roadworks.Website"
 
 DownloadProjectIfMissing $parentFolderOfThisScript "Escc.EastSussexGovUK"
 DownloadProjectIfMissing $parentFolderOfThisScript "Escc.NavigationControls"
